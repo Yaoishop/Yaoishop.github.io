@@ -1,0 +1,145 @@
+.title {
+    background: url('../img/149.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 2rem 0;
+    color: #a40069;
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.title h1 {
+    line-height: 2.5rem;
+}
+
+.title p {
+    line-height: 1.5rem;
+    opacity: .6;
+}
+
+.shop figure {
+    /* border: 1px solid #dfdfdf; */
+    padding: 1rem
+}
+
+.shop figure:hover {
+    box-shadow: 0 0 60px rgb(255, 255, 255);
+
+}
+.shop {
+    background:#537074;
+    min-height: 100vh;
+}
+
+h2 {
+    color: white;
+    text-align: center
+}
+
+.nav-tabs .nav-link.disabled {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+.h2,
+h2 {
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+.toc {
+    background: #4e0032
+}
+
+.home-info {
+    background: #253334;
+     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.home-sev {
+    background: #17c2a4;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+body{
+    color: white
+}
+h3 {
+    text-align: center
+}
+.baba {
+    background: #a40069
+}
+.baba p{
+    text-align: center;
+    font-size: 50px
+}
+.bon {
+    background: #253334;
+    min-height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.bon p {
+    text-align: center;
+font-size: 50px;
+color: white
+}
+.btn-primary {
+    color: white;
+    background-color: #537074;
+    border-color: #007bff;
+}
+.footer {
+    color: white;
+    background: black;	
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    margin-left: 5rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+#hinh_1{
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    }
+    
+    #hinh_1:hover{
+    moz-transform: scale(1.2) rotate(0deg);
+    -webkit-transform: scale(1.2) rotate(0deg);
+    position: relative;}
+    .nav-tabs .nav-link.disabled {
+        color: white;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    .form-group{
+        color: #000000
+    }
