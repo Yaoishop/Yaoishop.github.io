@@ -1,82 +1,145 @@
-.rowhinh {
-    border: 6px solid #c7c7c773;
+.title {
+    background: url('../img/149.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 2rem 0;
+    color: #a40069;
 }
-h4{
-    text-decoration: line-through;
-}
-.shop h3 {
-    font-size: 1.75rem;
-    color: red;
-  
-    margin-left: 20px;
-}
-.shop h1 {
-    color: black;
-    margin-top: -20px;
-    margin-left: 20px;
-    font-size: 1.25rem;
-}
-.shop h4 {
 
-    margin-left: 20px;
-    font-size: 1.5rem;
-    color: #0000004d;
+.bg-dark {
+    background-color: black;
 }
-.logo{
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 20px;
+
+.title h1 {
+    line-height: 2.5rem;
 }
-.nut1 {
-    background: #0000003d;
-    position: relative;
-    display: inline-block;
-    padding: 0.5rem 1.5rem;
-    bottom: 5rem;
-    left: 1rem;
+
+.title p {
+    line-height: 1.5rem;
+    opacity: .6;
 }
-.nut2 {
-    background: #0000003d;
-    position: relative;
-    display: inline-block;
-    padding: 0.5rem 1.5rem;
-    bottom: 5rem;
-    left: 19rem;
+
+.shop figure {
+    /* border: 1px solid #dfdfdf; */
+    padding: 1rem
 }
-.shop a {
-    color: #e5e5e5;
+
+.shop figure:hover {
+    box-shadow: 0 0 60px rgb(255, 255, 255);
+
+}
+.shop {
+    background:#537074;
+    min-height: 100vh;
+}
+
+h2 {
+    color: white;
+    text-align: center
+}
+
+.nav-tabs .nav-link.disabled {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+a {
+    color: white;
     text-decoration: none;
-}
- 
-.nut3 {
-    background: #0000006b;
-    position: relative;
-    display: inline-block;
-    padding: 0.25rem 1rem;
-    bottom: -5rem;
-    left: 9rem;
-}
-.sale{
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 400px;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
 }
 
-.btn-dan:hover{
-color: white;
-background: black
+p {
+    margin-top: 0px;
+    margin-bottom: 1rem;
 }
-.btn-dan {
-    position: relative;
+
+.h2,
+h2 {
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+.toc {
+    background: #4e0032
+}
+
+.home-info {
+    background: #253334;
+     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.home-sev {
+    background: #17c2a4;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+body{
+    color: white
+}
+h3 {
+    text-align: center
+}
+.baba {
+    background: #a40069
+}
+.baba p{
+    text-align: center;
+    font-size: 50px
+}
+.bon {
+    background: #253334;
+    min-height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.bon p {
+    text-align: center;
+font-size: 50px;
+color: white
+}
+.btn-primary {
+    color: white;
+    background-color: #537074;
+    border-color: #007bff;
+}
+.footer {
+    color: white;
+    background: black;	
+}
+.navbar-brand {
     display: inline-block;
-    padding: 0.5rem 1.5rem;
-    bottom: 30rem;
-    left: 2rem;
-    background: #710808;
-    color: #e5e5e5;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    margin-left: 5rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
 }
-.icon{
-    position: absolute;
-    margin-top: 40px;
-    margin-left: 450px;
-}
+#hinh_1{
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    }
+    
+    #hinh_1:hover{
+    moz-transform: scale(1.2) rotate(0deg);
+    -webkit-transform: scale(1.2) rotate(0deg);
+    position: relative;}
+    .nav-tabs .nav-link.disabled {
+        color: white;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    .form-group{
+        color: #000000
+    }
