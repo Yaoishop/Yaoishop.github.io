@@ -1,186 +1,82 @@
-.title {
-    background: url('../img/nhung-bo-hoa-dep-nhat-15.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 90vh;
-    display: flex;
-    align-items: center;
-    text-align: center;
+.rowhinh {
+    border: 6px solid #c7c7c773;
 }
-
-.b1 {
-    background: url('../img/blafg.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 80vh;
-    display: flex;
-    align-items: center;
-    text-align: center;
+h4{
+    text-decoration: line-through;
 }
-
-.bg-dark {
-    background-color: black;
+.shop h3 {
+    font-size: 1.75rem;
+    color: red;
+  
+    margin-left: 20px;
 }
-
-.b1 h1 {
-    line-height: 2.5rem;
-    text-align: left;
-    margin-top: -60px;
-
+.shop h1 {
+    color: black;
+    margin-top: -20px;
+    margin-left: 20px;
+    font-size: 1.25rem;
 }
+.shop h4 {
 
-.b1 p {
-    margin-top: 20px;
-    line-height: 1.5rem;
-    opacity: .6;
-    text-align: justify;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    color: #0000004d;
 }
-
-.btn-nut1 {
-    margin-top: 35;
+.logo{
     position: absolute;
-    background: #46030f;
-    color: #ffffff6e;
-    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.nut1 {
+    background: #0000003d;
+    position: relative;
     display: inline-block;
     padding: 0.5rem 1.5rem;
-    margin-top: 1rem;
+    bottom: 5rem;
     left: 1rem;
 }
-
-.btn-nut1:hover {
-    background: #2d050c;
-    color: white
-}
-
-.nav-pills .nav-link {
-    border-radius: 0rem;
-    background: #46030f;
-}
-
-.header .nav-link {
-    color: white;
-    display: block;
-    padding: .8rem 8rem;
-}
-
-.nav-link:hover {
-    background: #602731;
-    color: white;
-    display: block;
-    padding: .5rem 8rem;
-}
-
-.header {
-    background: #46030f;
-}
-
-.b2 {
-    background: #34020b;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-.b2 h3 {
-    color: white;
-    margin-top: 20px;
-    font-size: 20px;
-}
-
-.b2 p {
-    color: #ffffffd4;
-    font-size: 20px
-}
-
-.btn-nut2 {
-    color: #ffffff7a;
-    background: #270108
-}
-
-.btn-nut2:hover {
-    color: #ffffff7a;
-    background: #69434a
-}
-
-#hinh_1 {
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-#hinh_1:hover {
-    moz-transform: scale(1.2) rotate(0deg);
-    -webkit-transform: scale(1.2) rotate(0deg);
+.nut2 {
+    background: #0000003d;
     position: relative;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    bottom: 5rem;
+    left: 19rem;
+}
+.shop a {
+    color: #e5e5e5;
+    text-decoration: none;
+}
+ 
+.nut3 {
+    background: #0000006b;
+    position: relative;
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    bottom: -5rem;
+    left: 9rem;
+}
+.sale{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 400px;
 }
 
-.b3 {
-    background: url('../img/images2033013_IMG_1616.JPG') no-repeat center center;
-    background-size: cover;
-    display: flex;
-    min-height: 100vh;
+.btn-dan:hover{
+color: white;
+background: black
 }
-.btn-nut3{
-    margin-top: 35;
-    position: absolute;
-    background: #46030fa8;
-    color: #ffffff6e;
-    position: absolute;
+.btn-dan {
+    position: relative;
     display: inline-block;
     padding: 0.5rem 1.5rem;
-    margin-top: 20rem;
-    left: 32rem;
+    bottom: 30rem;
+    left: 2rem;
+    background: #710808;
+    color: #e5e5e5;
 }
-.btn-nut3:hover{
-    margin-top: 35;
+.icon{
     position: absolute;
-    background: white;
-    color:#34020b;
-    position: absolute;
-    display: inline-block;
-    padding: 0.5rem 1.5rem;
-    margin-top: 20rem;
-    left: 32rem;
-}
-.b4{
-    background: url('../img/nền.png') no-repeat center center;
-    background-size: cover;
-    display: flex;
-    min-height: 100vh;
-}
-.abc {
-    background-color: #00000052;
-    padding: 80px 90px;
-    max-width: 700px;
-    margin: 50px auto;
-    margin-top: 200px;
-    border: 3px dashed #674646;
-}
-.abc p{
-    color:#ffffffb0;
-    text-align: center
-}
-.abc h2{
-    color:white;
-    text-align: center
-}
-.footer{
-    background: black;
-    min-height: 30vh;
-}
-.img-thumbnail {
-    padding: .25rem;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: .25rem;
-    transition: all .2s ease-in-out;
-    max-width: 100%;
-    height: auto;
-}
-.footer h1{
-    color: white;
-}
-.footer p{
-    color: #ffffffd4
+    margin-top: 40px;
+    margin-left: 450px;
 }
